@@ -5,7 +5,6 @@ import SEO from "../components/seo"
 import { graphql } from "gatsby"
 
 const IndexPage = ({ data }) => {
-  console.log(data)
   return (
     <Layout>
       <SEO title="Home" keywords={[`dictator`, `evil`, `pekkis`]} />
